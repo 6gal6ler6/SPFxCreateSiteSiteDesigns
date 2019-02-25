@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "anumark",
+    "libraryId": "aea64f84-fe47-4f17-8c50-d150eec81b01",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
