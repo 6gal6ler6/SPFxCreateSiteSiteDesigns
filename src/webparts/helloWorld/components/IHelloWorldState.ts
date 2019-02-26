@@ -1,5 +1,4 @@
 export interface IHelloWorldState {
-    message: string;
     selectedItem: any;
     siteDesigns: any;
     groupAliasAvailable: boolean;

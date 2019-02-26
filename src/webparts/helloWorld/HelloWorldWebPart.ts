@@ -10,13 +10,10 @@ import {
 import * as strings from 'HelloWorldWebPartStrings';
 import HelloWorld from './components/HelloWorld';
 import { IHelloWorldProps } from './components/IHelloWorldProps';
-import { sp } from "@pnp/sp";
 
 export interface IHelloWorldWebPartProps {
   description: string;
 }
-
-
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart < IHelloWorldWebPartProps > {
     public render(): void {
@@ -24,7 +21,6 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart < IHelloWor
         HelloWorld,
         {
           client: this.context.spHttpClient,
-          spUrl: this.context.pageContext.site.absoluteUrl,
         }
       );
 

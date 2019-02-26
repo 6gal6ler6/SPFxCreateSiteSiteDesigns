@@ -4,5 +4,4 @@ import {
 
 export interface IHelloWorldProps {
   client: SPHttpClient;
-  spUrl: string;
 }
